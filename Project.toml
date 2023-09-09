@@ -1,0 +1,7 @@
+name = "Benepar"
+uuid = "185e8bf6-b8f3-4466-8b12-cb093f92ae5d"
+authors = ["Yakov Wildfluss <y@wildfluss.com>"]
+version = "0.1.0"
+
+[deps]
+PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
