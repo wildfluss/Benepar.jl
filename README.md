@@ -59,3 +59,34 @@ this week.
 ) (DT this) (NN week)) (. .) (. 
 ))
 ```
+
+
+## Install 
+
+after installing Spacy.jl from here like this 
+
+```julia 
+] add https://github.com/joshday/Spacy.jl
+```
+
+this should fix benepar 
+
+```bash 
+./.CondaPkg/env/bin/pip install benepar
+```
+
+and then 
+
+```julia
+] add https://github.com/wildfluss/Benepar.jl
+```
+
+then it should load just fine 
+
+```julia
+> using Benepar
+> benepar.download("benepar_en3")
+[nltk_data] Downloading package benepar_en3 to /Users/y/nltk_data...
+[nltk_data]   Package benepar_en3 is already up-to-date!
+Python: True
+```
